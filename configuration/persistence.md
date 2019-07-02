@@ -32,7 +32,7 @@ Be sure to save your choice once you have selected your default service.
 The information below allows you to determine which Item states are persisted, when they are persisted, and where they are stored.
 
 Persistence Strategies are configured in a file named `<persistenceservice>.persist`, stored in `$OPENHAB_CONF/persistence`.
-Replace "persistenceservice" with the name of your persistence add-on (e.g. `rrd4j.persist`).
+Replace "persistenceservice" with the name of your persistence add-on (e.g. `rrd4j.persist`). All of the varieties of jdbc add-on are configured in ‘jdbc.persist’
 
 ### Persistence Triggers
 
